@@ -1,0 +1,22 @@
+looping---0
+k--- f
+k--- fh
+	k--- fho
+before---f
+looping---1
+k--- h
+k--- ho
+	k--- hoh
+before---fh
+looping---2
+k--- o
+k--- oh
+	k--- oho
+before---fho
+looping---3
+k--- h
+k--- ho
+	k--- hoe
+found word, in else loop 
+not at end of word...
+	after--l

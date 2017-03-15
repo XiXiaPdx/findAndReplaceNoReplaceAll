@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testFindAndReplace" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-03-15T22:54:01" hostname="Epicodus-6E.local" time="0.003">
+  <properties/>
+  <testcase name="returnWordsArray" classname="testFindAndReplace" time="0.002"/>
+  <testcase name="returnWordsArray2" classname="testFindAndReplace" time="0.0"/>
+  <system-out><![CDATA[looping---0
+k--- f
+k--- fh
+k--- fho
+before---f
+looping---1
+k--- h
+k--- ho
+k--- hoh
+before---fh
+looping---2
+k--- o
+k--- oh
+k--- oho
+before---fho
+looping---3
+k--- h
+k--- ho
+k--- hoe
+found word, in else loop 
+not at end of word...
+after--l
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
