@@ -3,7 +3,20 @@ import static org.junit.Assert.*;
 
 public class testFindAndReplace{
   @Test
-  public void returnWordsArray_simplest(){
+  public void returnWordsArray_noMatch(){
+    findAndReplace newGame = new findAndReplace();
+    String expectedOutPut = "x";
+    assertEquals(expectedOutPut, newGame.find("x", "z", "damn"));
+ }
+ @Test
+ public void returnWordsArray_1characterMatch(){
+   findAndReplace newGame = new findAndReplace();
+   String expectedOutPut = "damn";
+   assertEquals(expectedOutPut, newGame.find("z", "z", "damn"));
+}
+
+  @Test
+  public void returnWordsArray_simpleWordMatch(){
     findAndReplace newGame = new findAndReplace();
     String expectedOutPut = "damn";
     assertEquals(expectedOutPut, newGame.find("hoe", "hoe", "damn"));
@@ -51,7 +64,13 @@ public class testFindAndReplace{
     findAndReplace newGame = new findAndReplace();
     String expectedOutPut = "x";
     assertEquals(expectedOutPut, newGame.find("hoe", "hoe", "x"));
-
  }
+    @Test
+    public void returnWordsArray_2WordPhrase(){
+      findAndReplace newGame = new findAndReplace();
+      String expectedOutPut = "x x";
+      assertEquals(expectedOutPut, newGame.find("hoe hoe", "hoe", "x"));
+
+   }
 
 }
