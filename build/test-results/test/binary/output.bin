@@ -1,0 +1,147 @@
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-l
+temp--- 1-lx
+before---fhodamnl
+looping---7
+temp--- 0-x
+before---fhodamnlx
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-l
+before---fhodamnl
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-x
+temp--- 1-xh
+temp--- 2-xho
+before---fhodamnx
+looping---7
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+#final WITh replace----fhodamnxdamn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----damn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----damn
+looping---3
+temp--- 0-f
+temp--- 1-fl
+before---damnf
+looping---4
+temp--- 0-l
+before---damnfl
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+"final WITh replace----fhodamndamn
+	looping---0
+	temp--- 0-h
+	temp--- 1-ho
+	temp--- 2-hoe
+	final WITh replace----x

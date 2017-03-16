@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testFindAndReplace" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-03-16T06:42:26" hostname="Macbooks-MacBook-Air-2.local" time="0.021">
+  <properties/>
+  <testcase name="returnWordsArray_2lettersPastReplace" classname="testFindAndReplace" time="0.005"/>
+  <testcase name="returnWordsArray_1letterPassReplace" classname="testFindAndReplace" time="0.002"/>
+  <testcase name="returnWordsArray" classname="testFindAndReplace" time="0.002"/>
+  <testcase name="returnWordsArray_2ReplaceWithLetterBetween" classname="testFindAndReplace" time="0.003"/>
+  <testcase name="returnWordsArray_simplest" classname="testFindAndReplace" time="0.001"/>
+  <testcase name="returnWordsArray_ReplaceAtFront" classname="testFindAndReplace" time="0.002"/>
+  <testcase name="returnWordsArray_2ReplaceBackToBack" classname="testFindAndReplace" time="0.003"/>
+  <testcase name="returnWordsArray_ReplaceSmallerThanTarget" classname="testFindAndReplace" time="0.001"/>
+  <system-out><![CDATA[looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-l
+temp--- 1-lx
+before---fhodamnl
+looping---7
+temp--- 0-x
+before---fhodamnlx
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-l
+before---fhodamnl
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-x
+temp--- 1-xh
+temp--- 2-xho
+before---fhodamnx
+looping---7
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamnxdamn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----damn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----damn
+looping---3
+temp--- 0-f
+temp--- 1-fl
+before---damnf
+looping---4
+temp--- 0-l
+before---damnfl
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamndamn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----x
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

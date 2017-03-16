@@ -5,42 +5,37 @@ public class findAndReplace{
     String toReplace = b;
     int lengthToReplace = b.length();
     String replacer = c;
-    String beforeReplace = "";
-    String afterReplace = "";
     String finalWord ="";
+
 
     for (int i=0; i< wordsArray.length; i++){
       if (wordsArray[i].contains(b)){
         String[] lettersArray = wordsArray[i].split("");
-        for (int j=0; j <(lettersArray.length -(lengthToReplace));j++){
+        for (int j=0; j <lettersArray.length;j++){
             String temp = "";
             System.out.println("looping---"+j);
-          for(int k=0; k < lengthToReplace; k++){
-             temp = temp+lettersArray[j+k];
-             System.out.println("k--- "+temp);
-
+            int tempCounter = 0;
+          while (tempCounter < lengthToReplace){
+            temp = temp+lettersArray[j+tempCounter];
+            System.out.println("temp--- "+tempCounter+"-"+temp);
+            tempCounter++;
+              if (tempCounter+j >= lettersArray.length){
+                tempCounter = lengthToReplace;
+              }
           }
           if (!temp.equals(b)){
             //this stores before
-            beforeReplace = beforeReplace+lettersArray[j];
-            System.out.println("before---"+beforeReplace);
+            finalWord = finalWord+lettersArray[j];
+            System.out.println("before---"+finalWord);
           } else {
-            // we found our word
-            System.out.println("found word, in else loop ");
-
-            if (j+lengthToReplace < (lettersArray.length)){
-              //not at end
-              System.out.println("not at end of word...");
-              for (int l=j+lengthToReplace; l<lettersArray.length;l++){
-                afterReplace = afterReplace + lettersArray[l];
-                System.out.println("after--"+afterReplace);
-              }
-            }
+            // we found our word...
+            finalWord = finalWord + replacer;
+            System.out.println("final WITh replace----"+finalWord);
+            j+=lengthToReplace-1;
           }
         }
       }
     }
-    finalWord = beforeReplace + replacer+afterReplace;
     return finalWord;
   }
 }

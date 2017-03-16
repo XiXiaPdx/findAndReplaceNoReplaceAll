@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class testFindAndReplace</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class testFindAndReplace</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; testFindAndReplace</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.019s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">returnWordsArray</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnWordsArray_1letterPassReplace</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnWordsArray_2ReplaceBackToBack</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnWordsArray_2ReplaceWithLetterBetween</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnWordsArray_2lettersPastReplace</td>
+<td>0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnWordsArray_ReplaceAtFront</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnWordsArray_ReplaceSmallerThanTarget</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">returnWordsArray_simplest</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-l
+temp--- 1-lx
+before---fhodamnl
+looping---7
+temp--- 0-x
+before---fhodamnlx
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-l
+before---fhodamnl
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-x
+temp--- 1-xh
+temp--- 2-xho
+before---fhodamnx
+looping---7
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamnxdamn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----damn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----damn
+looping---3
+temp--- 0-f
+temp--- 1-fl
+before---damnf
+looping---4
+temp--- 0-l
+before---damnfl
+looping---0
+temp--- 0-f
+temp--- 1-fh
+temp--- 2-fho
+before---f
+looping---1
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoh
+before---fh
+looping---2
+temp--- 0-o
+temp--- 1-oh
+temp--- 2-oho
+before---fho
+looping---3
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamn
+looping---6
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----fhodamndamn
+looping---0
+temp--- 0-h
+temp--- 1-ho
+temp--- 2-hoe
+final WITh replace----x
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.4.1</a> at Mar 15, 2017 11:42:26 PM</p>
+</div>
+</div>
+</body>
+</html>
